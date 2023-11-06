@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const ProfileWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  width: 360px;
-  padding: 10px;
+  width: 500px;
+  padding-top: 10px;
   background-color: lightgray;
 `;
 
@@ -29,12 +29,12 @@ export const Tag = styled.p`
 
 export const Location = styled.p`
   font-weight: 500;
+  padding-bottom: 10px;
 `;
 
 export const Stats = styled.ul`
   display: flex;
   flex-direction: row;
-  gap: 16px;
 `;
 
 export const StatsItem = styled.li`
@@ -42,7 +42,7 @@ export const StatsItem = styled.li`
   flex-direction: column;
   align-items: center;
   background-color: darkgray;
-  width: 80px;
+  width: 100%
 `;
 
 export const Label = styled.span`
