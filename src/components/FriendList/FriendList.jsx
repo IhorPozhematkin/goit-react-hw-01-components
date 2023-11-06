@@ -1,9 +1,9 @@
 import { FriendListItem } from 'components/FriendListItem/FriendListItem';
-import { FriendsListContainer } from './FriendList.styled';
+import { FriendsListWrapper } from './FriendList.styled';
 
 export const FriendList = ({ friends }) => {
   return (
-    <FriendsListContainer>
+    <FriendsListWrapper>
       {friends.map(friend => (
         <FriendListItem
           key={friend.id}
@@ -12,6 +12,6 @@ export const FriendList = ({ friends }) => {
           name={friend.name}
         />
       ))}
-    </FriendsListContainer>
+    </FriendsListWrapper>
   );
 };
